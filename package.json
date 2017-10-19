@@ -17,7 +17,7 @@
     "build": "ngm build -p src --clean",
     "build.watch": "ngm build -p src --watch --skip-bundles",
     "start": "ng serve --aot",
-    "pretest": "run-s lint build link",
+    "pretest": "run-s lint build",
     "test": "ng test -sr",
     "test-coverage": "ng test -sr -cc",
     "postversion": "run-s changelog git-add git-commit-changelog",
